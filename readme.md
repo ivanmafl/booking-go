@@ -6,3 +6,4 @@ This is the repository for my bookings and reservations project.
 - Uses Chi router
 - Uses alex edwards SCS session management
 - Uses nosurf
+- fjf

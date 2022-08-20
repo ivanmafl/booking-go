@@ -11,6 +11,12 @@
 
 
 ```` bash
+# když už máme cmd a pkg folders 
+go run ./cmd/web
+
+# spustíme všechny soubory najednou
+go run . 
+
 # ukáže nám enviroment
 go env
 
@@ -26,12 +32,6 @@ go mod init myapp
 # vytvoření variable a printing memory address, kam směřuje pointer pointer 
 pes := "Amigo"
 fmt.Println(&pes) 
-
-# spustíme všechny soubory najednou
-go run . 
-
-# když už máme cmd a pkg folders 
-go run ./cmd/web
 
 # zformátuje (zlepší) vše co je v tomto folder
 go fmt ./...

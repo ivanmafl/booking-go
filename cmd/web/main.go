@@ -16,7 +16,6 @@ const portNumber = ":8080"
 var app config.AppConfig
 var session *scs.SessionManager
 
-
 func main() {
 
 	// change this to true when in production
@@ -52,4 +51,5 @@ func main() {
 
 	err = srv.ListenAndServe()
 	log.Fatal(err)
+
 }
